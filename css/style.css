@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500&family=Roboto:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.category-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 53, 54);
+  width: 100%;
+  height: 44px;
+  font-size: 0.85rem;
+  font-weight: 100;
+}
+.category {
+  color: white;
+  margin-right: 40px;
+  margin-left: 40px;
+  opacity: 0.8;
+}
+.category:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.phone {
+  opacity: 0.7;
+}
+.phone:hover {
+  opacity: 0.7;
+}
+img.category {
+  width: 19px;
+  height: 19px;
+}
+.name-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(199, 199, 204);
+  height: 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.name {
+  margin-right: 345px;
+}
+.price {
+  font-family: Commissioner;
+  margin-left: 345px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/*--------------------------------------------*/
+.hori-line {
+  height: 1px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  background-color: gray;
+  color: gray;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.fa-box, .fa-box-open {
+  margin-left: 10px;
+}
+.free-shipping, .free-return {
+  margin-top: 20px;
+  font-size: 0.65em;
+  font-weight: 600;
+}
+.hori1 {
+  margin-left: 30px;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  margin-left: 10px;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+.chat {
+  color: #3366d4;
+  text-decoration: none;
+}
+.chat:hover {
+  text-decoration: underline;
+}
+/*--------------------------------------------*/
+
+.main-page {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  width: 60rem;
+}
+.phone-images {
+  width: 30rem;
+}
+.phone-image {
+  width: 100%;
+  height: auto;
+  margin-left: 30px;
+}
+.model-select {
+  padding-top: 80px;
+  padding-left: 60px;
+  width: 30rem;
+}
+span.new {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #f88030;
+}
+span.introduce {
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+div.model {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+a.model-for-you {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  color: #3366d4;
+  cursor: pointer;
+  text-decoration: none;
+}
+a.model-for-you:hover {
+  text-decoration: underline;
+}
+
+/*--------------left main top----------------------*/
+.model-type-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 23px 10px;
+  border: solid 1px rgb(209, 209, 214);
+  border-radius: 5px;
+}
+.model-type-1:hover {
+  border: rgb(142, 142, 147) solid 1px;
+}
+.model-type-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+  padding: 23px 10px;
+  border: solid 1px rgb(209, 209, 214);
+  border-radius: 5px;
+}
+.model-type-2:hover {
+  border: rgb(142, 142, 147) solid 1px;
+}
+.type-name, .type-price {
+  font-family: Commissioner;
+}
+.type-name {
+  margin-left: 5px;
+  font-size: 105%;
+  font-weight: 500;
+}
+.type-display {
+  margin: 3px;
+  font-size: 0.65em;
+}
+.type-price {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/*---------------left bottom color-----------------*/
+.choose-color {
+  font-weight: 600;
+}
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 110px;
+  border: solid rgb(209, 209, 214) 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.color:hover {
+  border: rgb(142, 142, 147) solid 1px;
+}
+.color img {
+  height: 30%;
+}
+.color-name {
+  margin-top: 8px;
+  font-size: 0.65em;
+}
+#red .color-name {
+  font-size: 0.75em;
+}
+.product-red {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-red img {
+  width: 20%;
+}
+.product-red .donation {
+  width: 71%;
+  font-size: 0.7em;
+  color: rgb(142, 142, 147);
+}
+
+/*---------------left bottom storage----------------*/
+.choose-color {
+  margin-bottom: 12px;
+}
+.your-storage {
+  text-decoration: none;
+  color: #3366d4;
+  font-size: 0.75rem;
+}
+.your-storage:hover {
+  text-decoration: underline;
+}
+
+.storages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.storage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 110px;
+  border: solid rgb(209, 209, 214) 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.giga {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.giga .num {
+  font-size: 1.7rem;
+  color: rgb(44, 44, 46);
+  font-weight: 400;
+}
+.giga-price {
+  font-family: Commissioner;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.storage-line {
+  margin-top: 15px;
+}
+.care-description {
+  font-size: 0.7rem;
+}
